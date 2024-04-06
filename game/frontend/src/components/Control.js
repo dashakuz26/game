@@ -1,4 +1,11 @@
 import '../App.css';
+import {
+    CaretDownOutlined,
+    CaretRightOutlined,
+    CaretUpOutlined,
+    CaretLeftOutlined,
+    EnterOutlined, CloseOutlined, ExpandAltOutlined
+} from "@ant-design/icons";
 
 const Control = () => {
   return (
@@ -6,19 +13,19 @@ const Control = () => {
     <div className='title'>
         <h1>Управление</h1>
     </div>
-    <div className='content'>
+    <div className='content' style={{fontSize:20}}>
         <ul>
             <li>
-            ⁃ ходить по стрелочкам
+                Ходить по стрелочкам <CaretUpOutlined /> <CaretRightOutlined /> <CaretDownOutlined /> <CaretLeftOutlined />
             </li>
             <li>
-            ⁃ взаимодействовать с вещами enter
+            Взаимодействовать с вещами enter <EnterOutlined />
             </li>
             <li>
-            ⁃ открыть статистику esc
+            Открыть статистику esc <CloseOutlined />
             </li>
             <li>
-            ⁃ сделать игру во весь экран alt+ente
+             Cделать игру во весь экран alt + enter <ExpandAltOutlined />
             </li>
         </ul>
     </div>
