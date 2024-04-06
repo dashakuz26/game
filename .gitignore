@@ -5,3 +5,29 @@
 .idea/
 *.iml
 .venv/
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/game/frontend/frontend/node_modules
+/game/frontend/frontend/.pnp
+/game/frontend/frontend/.pnp.js
+
+# testing
+/game/frontend/frontend/coverage
+
+# production
+/game/frontend/frontend/build
+
+# misc
+/game/frontend/frontend/.DS_Store
+/game/frontend/frontend/.env.local
+/game/frontend/frontend/.env.development.local
+/game/frontend/frontend/.env.test.local
+/game/frontend/frontend/.env.production.local
+
+/game/frontend/frontend/npm-debug.log*
+/game/frontend/frontend/yarn-debug.log*
+/game/frontend/frontend/yarn-error.log*
+/python
+/game/frontend/node_modules/
