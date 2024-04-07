@@ -29,6 +29,8 @@
 ### 1 вариант с помощью терминала
 > cd game
 
+> python manage.py migrate
+
 > python manage.py runserver
 ### 2 вариант с помощью idea
 + Если используется Pycharm (Community)
