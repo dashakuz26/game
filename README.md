@@ -47,6 +47,7 @@
 
 + В терминале
 > cd game
+
 > python manage.py migrate
 + Запускаем 
 
